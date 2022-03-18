@@ -1,0 +1,296 @@
+/* .section-1 {
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.displey-flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+
+h4 {
+  color: #5863f8;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+form {
+  height: 288px;
+  margin-bottom: 50px;
+}
+textarea,
+input {
+  background-color: #f8f8f8;
+  border: 2px solid #e8e8e8;
+  outline: none;
+  caret-color: gray;
+  padding: 20px;
+}
+
+textarea {
+  resize: none;
+  max-width: 720px;
+  width: 100%;
+  height: 100%;
+  margin-right: 30px;
+}
+
+input {
+  height: 60px;
+  width: 100%;
+}
+
+input,
+button:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: #cecece;
+}
+
+.inputs-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  max-width: 350px;
+  width: 100%;
+}
+
+button {
+  background-color: #5863f8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  width: 374px;
+  height: 65.84px;
+}
+
+button:hover {
+  color: red;
+} */
+
+/* Global classes */
+
+.container {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+h4 {
+  color: #5863f8;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.header-h2 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.displey-flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rebeccapurple;
+}
+.titleH2 {
+  font-size: 42px;
+  font-weight: bolder;
+  line-height: 56px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 50px;
+}
+/* Section 1 */
+.section-1 {
+  padding-top: 54px;
+  margin-bottom: 67px;
+}
+form {
+  height: 288px;
+  margin-bottom: 50px;
+}
+textarea,
+input {
+  background-color: #f8f8f8;
+  border: 2px solid #e8e8e8;
+  outline: none;
+  caret-color: gray;
+  padding: 20px;
+}
+textarea {
+  resize: none;
+  max-width: 720px;
+  width: 100%;
+  height: 100%;
+  margin-right: 6px;
+}
+textarea::placeholder,
+input::placeholder {
+  color: #cecece;
+}
+
+.btn {
+  margin-bottom: 20px;
+}
+
+input,
+.sendBtn {
+  height: 60px;
+  width: 100%;
+}
+.inputs-wrapper {
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  max-width: 350px;
+  width: 100%;
+}
+.sendBtn {
+  background-color: #5863f8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+.sendBtn:hover {
+  color: rgba(169, 165, 173, 0.438);
+}
+.btn {
+  background-color: #5863f8;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: color 0.5s;
+}
+.btn:hover {
+  color: rgba(199, 193, 206, 0.404);
+}
+
+.btnBox {
+  flex-direction: column;
+  align-items: center;
+}
+.h2TextStyle {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 15px;
+}
+.h3TextStyle {
+  max-width: 362px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #b1b1b1;
+  margin-bottom: 5px;
+}
+/* end of Section 1 */
+/* Section 2 */
+
+.pageLink {
+  color: #5863f8;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.imageCard,
+.imageCard > img {
+  max-width: 352px;
+  max-height: 352px;
+  margin-bottom: 5px;
+}
+/* Footer Section */
+footer {
+  height: auto;
+  padding: 90px 140px;
+  background-color: #121212;
+}
+.titleDiv > h2 {
+  width: 150px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.titleDiv > p {
+  width: 260px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #b1b1b1;
+  margin-bottom: 20px;
+}
+.socialNetwork :not(:last-child) {
+  margin-right: 11px;
+}
+.footerUl :not(:last-child) {
+  margin-bottom: 10px;
+}
+.footerh3Style {
+  width: 115px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footerLinkStyle {
+  font-size: 14px;
+  font-weight: 500;
+  color: #5863f8;
+}
+.footerBtn {
+  border: none;
+  width: 30px;
+  height: 30px;
+  color: #5863f8;
+  background-color: #121212;
+
+  margin-top: -8px;
+}
+
+.contactInfoPStyle {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-left: 18px;
+  margin-bottom: 20px;
+}
